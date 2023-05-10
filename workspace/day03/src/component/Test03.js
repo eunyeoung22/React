@@ -8,7 +8,7 @@ const Test03 = () => {
     const onOpen = () => {
         setIsOpen(true); // 상태값을 false이기때문에 onOpen을 클릭 시 true로 변경됨
     };
-
+    //상태변수와 함수는 같이 있어야 한다.
     const onClose = () => {
         setIsOpen(false);
     };
